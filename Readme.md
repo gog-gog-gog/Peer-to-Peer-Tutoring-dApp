@@ -126,10 +126,6 @@ Feel free to fork this project and make improvements. To contribute:
 3. Make your changes and commit them.
 4. Submit a pull request with a description of the changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ### Notes
