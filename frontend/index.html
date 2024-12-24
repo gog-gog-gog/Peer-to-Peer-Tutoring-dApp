@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peer-to-Peer Tutoring</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.1/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Peer-to-Peer Tutoring</h1>
+
+      <div class="tutoring-offer">
+        <h2>Offer Tutoring</h2>
+        <input
+          type="text"
+          id="topic"
+          placeholder="Topic (e.g., Math, Programming)"
+        />
+        <input
+          type="number"
+          id="tokensRequired"
+          placeholder="Tokens Required"
+        />
+        <button onclick="offerTutoring()">Offer Tutoring</button>
+      </div>
+
+      <div class="available-tutors">
+        <h2>Available Tutors</h2>
+        <ul id="tutorsList"></ul>
+      </div>
+
+      <div class="book-session">
+        <h2>Book a Tutoring Session</h2>
+        <input
+          type="text"
+          id="tutorAddress"
+          placeholder="Enter tutor's address"
+        />
+        <button onclick="bookTutoringSession()">Book Session</button>
+      </div>
+
+      <p id="status"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
